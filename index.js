@@ -20,6 +20,6 @@ function appendKitten(name) {
   return kittens1
 }
 function prependKitten(name) {
-  var kittens1 = kittens.slice(name)
+  var kittens1 = [name, ...kittens]
   return kittens1
 }
