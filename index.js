@@ -19,7 +19,7 @@ function appendKitten(name) {
   var kittens1 = kittens.concat(name)
   return kittens1
 }
-function appendKitten(name) {
+function prependKitten(name) {
   var kittens1 = kittens.concat(name)
   return kittens1
 }
